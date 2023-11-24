@@ -1,0 +1,79 @@
+
+body {
+    font-family: monospace, serif;
+    background-color: #ebedf3;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  
+}
+.pricing-plan {
+ background-color: rgb(255, 255, 255); 
+ flex: 1;
+ height: 500px;
+ max-width: 300px;
+ border-radius: 25px;
+}
+.topcard {
+    height: 150px;
+    background: linear-gradient(45deg, #e79c0f,#0e66b8);
+    padding: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: #ebedf3;
+}
+#card1 {
+    background: linear-gradient(45deg, #cc11bc,#e79c0f);
+}
+#card3 {
+    background: linear-gradient(45deg, #0e66b8,#cc11bc);
+}
+.plan-title {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    border-bottom: 2px  solid #ebedf3;
+}
+.plan-price {
+    font-size: 28px;
+}
+.plan-features {
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.plan-button {
+    background: linear-gradient(45deg, #e79c0f,#0e66b8);
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+  cursor: pointer;
+  text-align: center;
+  color: #ebedf3;
+  font-weight: bold;
+  font-size: 15px;
+}
+.cost {
+  font-size: 54px;
+  font-weight: bold;
+}
+@media (max-width: 380px) {
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        max-width: 250px;
+        min-width: 250px;
+      height: 100%;
+    }
+  }
